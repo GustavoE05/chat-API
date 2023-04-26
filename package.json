@@ -1,0 +1,27 @@
+{
+  "name": "chat-api",
+  "version": "1.0.0",
+  "description": "\"# chat-API\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "test": "echo \"Error: no test especified\" && exit 1"
+  },
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/GustavoE05/chat-API.git"
+},
+  "author": "GustavoEW",
+  "license": "ISC",
+  "bugs": "https://github.com/GustavoE05/chat-API/issues",
+  "homepage": "https://github.com/GustavoE05/chat-API#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.3.0"
+  },
+  "bin":{
+    "chat-API": "bin/server.js"
+  }
+}
+
