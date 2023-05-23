@@ -6,7 +6,8 @@ exports.entrar=async(nick)=>{
     if(resp.insertedID){
         return {"idUser":resp.insertedID,
                 "token": await token.setToken(JSON.stringify(resp.insertedID).replace(/"/g,''),nick),
-                "nick":nick}
+                "nick":nick
+            }
     
     }
     

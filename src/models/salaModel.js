@@ -9,7 +9,7 @@ let atualizarMensagens = async (sala) => {
 }
 
 let buscarSala = async(idSala)=>{
-    return db.findOne("salas",idsala);
+    return db.findOne("Salas",idsala);
  }
 
 let buscarMensagens = async (idsala, timestamp)=>{
